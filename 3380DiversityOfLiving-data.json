@@ -1,0 +1,34 @@
+{
+
+  "DatabaseName": [
+    "diversityofliving : "
+  ],
+
+  "Collections": [
+    "users",
+    "faqs",
+    "countrycounts"
+  ],
+  "Schemas": {
+
+    "UserSchema": [
+      "name : String",
+      "email : String",
+      "password : String",
+      "usertype : String"
+    ],
+
+    "FaqSchema": [
+      "userid : String",
+      "country : String",
+      "faqquestion : String",
+      "faqanswer : String",
+      "ansflag : Boolean"
+    ],
+
+    "CountryCountSchema": [
+      "country : String",
+      "count : String"
+    ]
+  }
+}
